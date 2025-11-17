@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Portafolio - Alex García</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+`<header>`
+`<nav>`
+`<a href="#" class="logo">AlexG.</a>`
+`<ul>`
+`<li><a href="#about">Sobre mí</a></li>`
+`<li><a href="#projects">Proyectos</a></li>`
+`<li><a href="#contact">Contacto</a></li>`
+`</ul>`
+`<button id="theme-toggle">🌙</button>`
+`</nav>`
+`</header>`
+
+`<main>`
+`<section class="hero">`
+`<h1>Hola, soy <span class="highlight">Alex García</span></h1>`
+`<p>Desarrollador Web creativo y apasionado por construir experiencias digitales increíbles.</p>`
+`<a href="#projects" class="cta-button">Ver mis proyectos</a>`
+`</section>`
+
+`<section id="about" class="content-section">`
+`<h2>Sobre mí</h2>`
+`<p>Me especializo en el desarrollo front-end, creando interfaces de usuario que no solo se ven bien, sino que también son intuitivas y rápidas. Me encanta transformar ideas complejas en código limpio y funcional.</p>`
+`</section>`
+
+`<section id="projects" class="content-section">`
+`<h2>Mis Proyectos</h2>`
+`<div class="project-grid">`
+`<div class="project-card">`
+`<h3>Proyecto Alpha</h3>`
+`<p>Una aplicación web para la gestión de tareas con tecnología React.</p>`
+`<a href="#">Ver código →</a>`
+`</div>`
+`<div class="project-card">`
+`<h3>E-commerce Moderno</h3>`
+`<p>Tienda online desarrollada con HTML5, CSS3 y JavaScript vanilla.</p>`
+`<a href="#">Ver código →</a>`
+`</div>`
+`<div class="project-card">`
+`<h3>Blog Personal</h3>`
+`<p>Un blog minimalista y rápido, construido con un generador de sitios estáticos.</p>`
+`<a href="#">Ver código →</a>`
+`</div>`
+`</div>`
+`</section>`
+
+`<section id="contact" class="content-section">`
+`<h2>Contacto</h2>`
+`<p>¿Tienes un proyecto en mente? ¡Hablemos!</p>`
+`<form id="contact-form">`
+`<input type="text" placeholder="Tu nombre" required>`
+`<input type="email" placeholder="Tu correo" required>`
+`<textarea placeholder="Tu mensaje" rows="5" required></textarea>`
+`<button type="submit">Enviar Mensaje</button>`
+`</form>`
+`</section>`
+`</main>`
+
+`<footer>`
+`<p>&copy; 2024 Alex García. Todos los derechos reservados.</p>`
+`</footer>`
+
+`<script src="script.js"></script>`
+</body>
+</html>
